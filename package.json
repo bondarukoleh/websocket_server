@@ -1,0 +1,23 @@
+{
+  "name": "websocket_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondarukoleh/websocket_server.git"
+  },
+  "author": "oleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondarukoleh/websocket_server/issues"
+  },
+  "homepage": "https://github.com/bondarukoleh/websocket_server#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
