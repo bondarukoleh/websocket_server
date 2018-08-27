@@ -1,16 +1,16 @@
 {
   "name": "websocket_server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple websocket chat built with socket.io",
+  "main": "chat.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node chat.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bondarukoleh/websocket_server.git"
   },
-  "author": "oleh",
+  "author": "Oleh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bondarukoleh/websocket_server/issues"
