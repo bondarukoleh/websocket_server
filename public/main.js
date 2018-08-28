@@ -49,16 +49,13 @@ $(function () {
     message = cleanInput(message);
     if (message && connected) {
       $inputMessage.val('');
-      addChatMessage({
+      const data = {
         username: username,
         message: message,
         color: userColor
-      });
-      socket.emit('new message', {
-        username: username,
-        message: message,
-        color: userColor
-      });
+      }
+      addChatMessage(data);
+      socket.emit('new message', data);
     }
   }
 

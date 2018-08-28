@@ -12,10 +12,7 @@ server.listen(port, () => {
 app.use(express.static(__dirname + '/public'));
 
 io.on('connection', (socket) => {
-  let addedUser = false;
   socket.on('add user', userName => {
-    if (addedUser) return;
-    addedUser = true;
     socket.username = userName;
     socket.emit('login', socket.username)
     socket.broadcast.emit('new user', socket.username)
