@@ -25,7 +25,6 @@ $(function () {
     if (username) {
       $loginPage.fadeOut();
       $chatPage.show();
-      $loginPage.off('click');
       $currentInput = $inputMessage.focus();
       socket.emit('add user', username);
     }
