@@ -4,6 +4,7 @@
   "description": "Simple websocket chat built with socket.io",
   "main": "chat.js",
   "scripts": {
+    "prestart": "mpm i",
     "start": "node chat.js"
   },
   "repository": {
