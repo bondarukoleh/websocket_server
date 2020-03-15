@@ -19,7 +19,7 @@
   "homepage": "https://github.com/bondarukoleh/websocket_server#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "socket.io": "^1.7.3"
   }
 }
